@@ -1,51 +1,56 @@
 ### Hi there 👋
 
-<h1>This is My Portfolio</h1>
-<!-- 
-**Vinay-the-dev-bot/Vinay-the-dev-bot** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
+# I'm Vinayagoud Meti!
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&size=30&duration=4000&pause=500&color=2AA885&center=true&multiline=true&random=false&width=800&height=120&lines=Full+Stack+Web+Developer;1000%2B+Hours+of+Coding+Experience;500%2B+DSA+Questions+Solved)](https://git.io/typing-svg)
+
+<hr>
 
 <p>
-  Hi, I'm Vinayagoud, Passionate software testing professional with 2 years of experience in both
-  automation and manual testing. Throughout my testing career, I've been driven
-  by a meticulous approach to ensure the reliability and efficiency of software
-  solutions. Now, I am transitioning to a full stack web developer, with a
-  specific focus on the MERN (MongoDB, Express.js, React, Node.js) stack.
+Passionate full-stack web developer specialized in MERN stack with a focus on crafting robust and scalable applications.I thrive on turning creative ideas into interactive and user-friendly experiences. With a strong foundation in both frontend and backend technologies, I'm dedicated to delivering high-quality solutions that meet and exceed expectations.
 </p>
 
-- 💬 ask me about anything, i am happy to help;
-<h1>Key Skills</h1>
+<!-- # 💻 Tech Stack -->
+
+<!-- - **Frontend:** HTML, CSS, JavaScript, React, Redux
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB, SQL
+- **Version Control:** Git
+- **Tools:** VS Code, NPM -->
+
+<p>🌍 I hail from Bagalkot, Karnataka.</p>
+<!-- <p>🔥 Visit my Portfolio for more details.</p> -->
+
+## 🚀 What I Do
+
+- Develop responsive and intuitive user interfaces using modern frontend frameworks.
+- Build scalable server-side applications and APIs to support frontend functionality.
+- Collaborate with cross-functional teams to deliver innovative and impactful solutions.
+- Stay updated with the latest web development trends and technologies.
+
+**<h1>Languages and Tools</h1>**
+
+<div style="display:inline-block " >
+<code>HTML <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code> |
+<code>CSS <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code> |
+<code>JavaScript <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code> |
+<code>React<img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code> |
+<code>Java<img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"></code> |
+<code>Node JS<img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>|
+<code>Express JS<img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/expressjs/expressjs.png"></code> |
+<code>SQL<img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code> |
+<code>Mongo DB<img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"></code> |
+<code>Git<img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code> |
+<code>Redux<img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"></code> |
+<code>Chakra UI<img height="20" src="https://camo.githubusercontent.com/cc2a35e9b9f2ce775a56de312172819c6a968abc021e8471c8c8471dea7705b0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4368616b72612d2d55492d3331393739353f7374796c653d666f722d7468652d6261646765266c6f676f3d6368616b72612d7569266c6f676f436f6c6f723d7768697465"></code> | <code>React Router<img height="20" src="./images/react-router.1024x559.png"></code>
+</div>
+
+**<h1>📈 My Github Stats</h1>**
+
 <p>
-  Software Testing: Proficient in both manual and automated testing
-  methodologies.
-</p>
-<p>
-  Full Stack Web Development: Embarking on a journey to master the MERN stack.
-</p>
-<p>
-  Commitment: Dedicated to delivering high-quality, efficient, and reliable
-  software solutions.
-</p>
-<h1>Goals:</h1>
+<img src="https://github-readme-stats.vercel.app/api?username=Vinay-the-dev-bot&show_icons=true&theme=gotham&hide_border=true&border_radius=10&card_width=500" alt="Vinay-the-dev-bot" /> 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Vinay-the-dev-bot&theme=gotham&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&mode=weekly&card_width=500" alt="Vinay-the-dev-bot" /> 
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vinay-the-dev-bot&show_icons=true&theme=gotham&hide_border=true&border_radius=10&height=500&card_width=500" alt="Vinay-the-dev-bot" /></p>
 
-<p>Contribute technical expertise to a dynamic organization.</p>
-<p>Continuously expand my skill set and stay updated with industry trends.</p>
-<p>
-  Collaborate with a team to create impactful and innovative web applications.
-</p>
-
-**languages and tools:**
-
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
-
-📈 my github stats
-
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Vinay-the-dev-bot&show_icons=true&theme=gotham" alt="Vinay-the-dev-bot" />
+Feel free to reach out to [me](Vinaygouda.meti16@gmail.com), if you have any questions or if there's an opportunity for collaboration. Let's build innovative and impactful web applications together!
+rk
