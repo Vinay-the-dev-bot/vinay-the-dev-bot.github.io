@@ -48,4 +48,4 @@
 
 📈 my github stats
 
-<p text-align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Vinay-the-dev-bot&show_icons=true&theme=gotham" alt="Vinay-the-dev-bot" />
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Vinay-the-dev-bot&show_icons=true&theme=gotham" alt="Vinay-the-dev-bot" />
