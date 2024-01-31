@@ -1,0 +1,175 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+.navdiv {
+    position: sticky;
+    top: 0px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    .title_logo {
+            position: relative;
+            bottom: 6px;
+            >img {
+                    width: 80px;
+            }
+        }
+     
+    .navbar {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px auto;
+            padding: 0 50px;
+            background-color: transparent;
+            vertical-align: middle;
+            transition: all 0.3s ease;
+            button {
+                    width: 100px;
+                    height: 20px;
+                }
+            .menu li {
+                    list-style: none;
+                    display: inline-block;
+                    a {
+                            display: block;
+                            margin-left: 25px;
+                            transition: color 0.3s ease;
+                            letter-spacing: 2px;
+                            color: black;
+                            font-weight: 500;
+                        }
+                    a:hover {
+                        color: #a8dff1;
+                    }
+                } 
+            .logo a span {
+                    color: #0faaf1;
+                    transition: all 0.3s ease;
+                }
+             h1 {
+                    color: black;
+                    bottom: 10px;
+                    font-weight: bolder;
+                    font-family: cursive;
+                    cursor: pointer;
+                }
+        }
+}
+#typewriter2>img{
+    // width: 100%;
+    display: block;
+    margin: auto;
+}
+#home {
+    padding: 50px;
+    background-color: gold;
+    width: 85%;
+    margin: auto;
+    .intro {
+        display: flex;
+        .name {
+                width: 75%;
+                background-color: red;
+                padding: 30px;
+                .typewriter {
+                        font-size: 20px;
+                        margin: 50px auto;
+                        overflow: hidden;
+                        white-space: nowrap; 
+                        animation: typing 3s steps(40) infinite;
+                    }
+                
+                    @keyframes typing {
+                        from {
+                            width: 0;
+                        }
+                
+                        to {
+                            width: 20%;
+                        }
+                    }
+                .homeName {
+                        font-size: 80px;
+                    }
+            }
+        .ppimage {
+            width: 25%;
+            background-color: yellow;
+        }
+    }
+    .homeLinks {
+        width: 100%;
+        background-color: wheat;
+        display: flex;
+        justify-content: center;
+        .iconBG {
+                background-color: antiquewhite;
+                padding: 10px;
+                width: 50px;
+                .homeIcon {
+                        color: red;
+                        width: 100%;
+                    }
+            }
+    }
+          
+}
+#about {
+    padding: 50px;
+    >h1,
+    >h3,
+    >p {
+            width: 70%;
+            margin: auto;
+            padding: 20px 0;
+            font-family: "Poppins", sans-serif;
+        }
+}
+#skills{
+    #skillsSection {
+        .singleSkill{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // display: flex;
+        // justify-content: space-around;
+        border-radius: 5px;
+        padding: 10px;
+        transition: .5s;
+        // box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        // box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        // box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        // box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        // box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+        // box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+        img {
+                height: 80px;
+                width: 80px;
+            }
+            p{
+                position: relative;
+                top: -20px; 
+                display: block; 
+                opacity: 0;
+                transition: .5s;
+            }
+            
+        
+       }
+       .singleSkill:hover p {
+        top: 0;
+        display: block;opacity: 1;
+        transition: .5s;
+        color: black;
+    }
+       div:hover {
+        transform: scale(1.2);
+    }
+            display: grid; 
+            grid-template-columns: 120px 120px 120px 120px; 
+            grid-template-rows:120px 120px 120px 120px;
+            justify-content: center;  
+            gap:20px;  
+        }
+}
