@@ -125,7 +125,18 @@
   font-family: "Poppins", sans-serif;
 }
 
+#skills {
+  padding: 20px 50px;
+  text-align: center;
+}
+#skills > h1 {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
 #skills #skillsSection {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: 120px 120px 120px 120px;
   grid-template-rows: 120px 120px 120px 120px;
@@ -147,17 +158,13 @@
 }
 #skills #skillsSection .singleSkill p {
   position: relative;
-  top: -20px;
-  display: block;
-  opacity: 0;
+  top: 3px;
+  scale: 0;
   transition: 0.5s;
 }
 #skills #skillsSection .singleSkill:hover p {
-  top: 0;
-  display: block;
-  opacity: 1;
-  transition: 0.5s;
-  color: black;
+  scale: 1;
+  color: #0faaf1;
 }
 #skills #skillsSection div:hover {
   transform: scale(1.2);
