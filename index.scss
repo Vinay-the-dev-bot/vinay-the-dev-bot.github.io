@@ -22,7 +22,7 @@
             padding: 0 50px;
             background-color: transparent;
             vertical-align: middle;
-            transition: all 0.3s ease;
+            /// transition: all 0.3s ease;
             button {
                     width: 100px;
                     height: 20px;
@@ -33,7 +33,7 @@
                     a {
                             display: block;
                             margin-left: 25px;
-                            transition: color 0.3s ease;
+                            // transition: color 0.3s ease;
                             letter-spacing: 2px;
                             color: black;
                             font-weight: 500;
@@ -44,7 +44,7 @@
                 } 
             .logo a span {
                     color: #0faaf1;
-                    transition: all 0.3s ease;
+                    /// transition: all 0.3s ease;
                 }
              h1 {
                     color: black;
@@ -97,21 +97,7 @@
             background-color: yellow;
         }
     }
-    .homeLinks {
-        width: 100%;
-        background-color: wheat;
-        display: flex;
-        justify-content: center;
-        .iconBG {
-                background-color: antiquewhite;
-                padding: 10px;
-                width: 50px;
-                .homeIcon {
-                        color: red;
-                        width: 100%;
-                    }
-            }
-    }
+    
           
 }
 #about {
@@ -152,10 +138,10 @@
         box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
         // box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
         // box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
-        img {
-                height: 80px;
-                width: 80px;
-            }
+            img {
+                    height: 80px;
+                    width: 80px;
+                }
             p{
                 position: relative;
                 top: 3px;    
@@ -178,4 +164,124 @@
             justify-content: center;  
             gap:20px;  
         }
+}
+
+#projects{
+    width: 80%;
+    margin: auto;  
+    .project {
+        padding: 20px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        border: 1px solid black;
+        height: 250px;
+        .projectScreenShot{
+            width: 40%;
+            background-color: gold;
+        }
+        .projectDescription {
+            width: 60%;
+            background-color: aqua; 
+        }
+    }
+        .project.alternate {
+            flex-direction: row-reverse; 
+        }
+}
+#gitStats {
+    width: 80%;
+    margin: auto;
+    img{ 
+        width: 100%;
+    } 
+
+}
+
+#contact{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 400px;
+    input{
+        border-radius: 3px;
+        border: 1px solid black;
+        height: 40px;
+    }
+    #contactLeft{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        // gap:20px; 
+        span{ 
+            padding: 0 15px;
+            font-size: 30px;
+        }
+        p {
+            width: 70%;
+            margin: auto;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            border: 1px solid black;  
+            }
+    }
+    #contactRight{
+        text-align: center;
+        width: 50%;
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 350px;
+            width: 90%; 
+            input, textarea{
+                padding-left: 10px;
+            }
+            #message{
+                resize: none;
+                height: 100px;
+            }
+        }
+    }
+}
+.homeLinks {
+    width: 100%; 
+    display: flex;
+    justify-content: center;transition: 2s;
+
+    .iconBG { 
+        padding: 10px;
+        width: 50px;
+        display: flex;
+        transition: 2s;
+        
+        
+         
+        .userHandle {
+        display: none;
+        position: relative;
+        top: 3px;
+        transform: scale(0); 
+        transition: 5s;
+        }
+
+        .homeIcon {
+            color: red;
+            width: 45px;
+        }
+    }
+    .iconBG:hover .userHandle{ 
+        display: flex;
+        align-items: center;
+        transform: scale(1);
+        transition: 5s;
+        
+    }
+    .iconBG:hover{
+        width: fit-content;
+        transform: scale(1);
+        transition: 5s;
+    }
 }

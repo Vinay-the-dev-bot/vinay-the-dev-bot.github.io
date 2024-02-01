@@ -23,7 +23,6 @@
   padding: 0 50px;
   background-color: transparent;
   vertical-align: middle;
-  transition: all 0.3s ease;
 }
 .navdiv .navbar button {
   width: 100px;
@@ -36,7 +35,6 @@
 .navdiv .navbar .menu li a {
   display: block;
   margin-left: 25px;
-  transition: color 0.3s ease;
   letter-spacing: 2px;
   color: black;
   font-weight: 500;
@@ -46,7 +44,6 @@
 }
 .navdiv .navbar .logo a span {
   color: #0faaf1;
-  transition: all 0.3s ease;
 }
 .navdiv .navbar h1 {
   color: black;
@@ -96,21 +93,6 @@
 #home .intro .ppimage {
   width: 25%;
   background-color: yellow;
-}
-#home .homeLinks {
-  width: 100%;
-  background-color: wheat;
-  display: flex;
-  justify-content: center;
-}
-#home .homeLinks .iconBG {
-  background-color: antiquewhite;
-  padding: 10px;
-  width: 50px;
-}
-#home .homeLinks .iconBG .homeIcon {
-  color: red;
-  width: 100%;
 }
 
 #about {
@@ -168,4 +150,120 @@
 }
 #skills #skillsSection div:hover {
   transform: scale(1.2);
+}
+
+#projects {
+  width: 80%;
+  margin: auto;
+}
+#projects .project {
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  border: 1px solid black;
+  height: 250px;
+}
+#projects .project .projectScreenShot {
+  width: 40%;
+  background-color: gold;
+}
+#projects .project .projectDescription {
+  width: 60%;
+  background-color: aqua;
+}
+#projects .project.alternate {
+  flex-direction: row-reverse;
+}
+
+#gitStats {
+  width: 80%;
+  margin: auto;
+}
+#gitStats img {
+  width: 100%;
+}
+
+#contact {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  height: 400px;
+}
+#contact input {
+  border-radius: 3px;
+  border: 1px solid black;
+  height: 40px;
+}
+#contact #contactLeft {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#contact #contactLeft span {
+  padding: 0 15px;
+  font-size: 30px;
+}
+#contact #contactLeft p {
+  width: 70%;
+  margin: auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+#contact #contactRight {
+  text-align: center;
+  width: 50%;
+}
+#contact #contactRight form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 350px;
+  width: 90%;
+}
+#contact #contactRight form input, #contact #contactRight form textarea {
+  padding-left: 10px;
+}
+#contact #contactRight form #message {
+  resize: none;
+  height: 100px;
+}
+
+.homeLinks {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: 2s;
+}
+.homeLinks .iconBG {
+  padding: 10px;
+  width: 50px;
+  display: flex;
+  transition: 2s;
+}
+.homeLinks .iconBG .userHandle {
+  display: none;
+  position: relative;
+  top: 3px;
+  transform: scale(0);
+  transition: 5s;
+}
+.homeLinks .iconBG .homeIcon {
+  color: red;
+  width: 45px;
+}
+.homeLinks .iconBG:hover .userHandle {
+  display: flex;
+  align-items: center;
+  transform: scale(1);
+  transition: 5s;
+}
+.homeLinks .iconBG:hover {
+  width: -moz-fit-content;
+  width: fit-content;
+  transform: scale(1);
+  transition: 5s;
 }/*# sourceMappingURL=index.css.map */
