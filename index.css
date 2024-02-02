@@ -233,37 +233,53 @@
 }
 
 .homeLinks {
-  width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  transition: 2s;
+  align-items: center;
+  padding: 20px;
+  height: 120px;
+  gap: 20px;
 }
-.homeLinks .iconBG {
-  padding: 10px;
-  width: 50px;
+.homeLinks a {
+  text-decoration: none;
+}
+.homeLinks a #socialMedia1,
+.homeLinks a #socialMedia2,
+.homeLinks a #socialMedia3 {
   display: flex;
-  transition: 2s;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  padding: 20px;
+  width: 80px;
+  transition: 0.5s;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
-.homeLinks .iconBG .userHandle {
-  display: none;
+.homeLinks a #socialMedia1 img,
+.homeLinks a #socialMedia2 img,
+.homeLinks a #socialMedia3 img {
+  height: 50px;
+  width: 50px;
+}
+.homeLinks a #socialMedia1 p,
+.homeLinks a #socialMedia2 p,
+.homeLinks a #socialMedia3 p {
   position: relative;
   top: 3px;
-  transform: scale(0);
-  transition: 5s;
+  transform: scaleY(0);
+  transition: 0.5s;
+  font-size: 0px;
+  overflow: hidden;
 }
-.homeLinks .iconBG .homeIcon {
-  color: red;
-  width: 45px;
-}
-.homeLinks .iconBG:hover .userHandle {
-  display: flex;
-  align-items: center;
-  transform: scale(1);
-  transition: 5s;
-}
-.homeLinks .iconBG:hover {
-  width: -moz-fit-content;
-  width: fit-content;
-  transform: scale(1);
-  transition: 5s;
+.homeLinks a #socialMedia1:hover p, .homeLinks a #socialMedia2:hover p, .homeLinks a #socialMedia3:hover p {
+  transform: scaleY(1);
+  color: #0faaf1;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  font-size: 20px;
+  transition: 0.5s;
 }/*# sourceMappingURL=index.css.map */

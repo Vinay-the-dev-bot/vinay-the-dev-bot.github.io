@@ -245,43 +245,57 @@
             }
         }
     }
-}
-.homeLinks {
-    width: 100%; 
+} 
+.homeLinks{
     display: flex;
-    justify-content: center;transition: 2s;
-
-    .iconBG { 
-        padding: 10px;
-        width: 50px;
-        display: flex;
-        transition: 2s;
-        
-        
-         
-        .userHandle {
-        display: none;
-        position: relative;
-        top: 3px;
-        transform: scale(0); 
-        transition: 5s;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 120px;
+    gap: 20px; 
+    a{
+        text-decoration: none;
+        #socialMedia1,
+        #socialMedia2,
+        #socialMedia3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: fit-content;
+            border-radius: 5px;
+            padding: 20px;
+            width: 80px;
+            transition: .5s;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
         }
 
-        .homeIcon {
-            color: red;
-            width: 45px;
+        #socialMedia1 img, 
+        #socialMedia2 img,
+        #socialMedia3 img{
+            height: 50px;
+            width: 50px;
         }
-    }
-    .iconBG:hover .userHandle{ 
-        display: flex;
-        align-items: center;
-        transform: scale(1);
-        transition: 5s;
-        
-    }
-    .iconBG:hover{
-        width: fit-content;
-        transform: scale(1);
-        transition: 5s;
+    
+        #socialMedia1 p,
+        #socialMedia2 p,
+        #socialMedia3 p {
+               position: relative;
+               top: 3px;
+               transform: scaleY(0);
+               transition: .5s; 
+               font-size: 0px;
+               overflow: hidden;
+        }
+    
+        #socialMedia1:hover p,#socialMedia2:hover p,#socialMedia3:hover p {
+            transform: scaleY(1);
+            color: #0faaf1;
+            max-height: fit-content; 
+            font-size: 20px;
+            transition: .5s;
+        }
     }
 }
+  
