@@ -32,12 +32,14 @@
           </li>
           <li><a href="#contact" class="nav-link contact"> Contact</a></li>
           <li id="resume-button-1" class="nav-link resume">
-            <button>Resume</button>
+            <!-- <button>Resume</button> -->
+            <button id="downloadButton">Download PDF</button>
+            <!-- <input type="button" id="btn" value="Download" /> -->
+            <!-- </li> -->
           </li>
         </ul>
       </nav>
     </div>
-
     <div id="home">
       <div class="intro">
         <div class="name">
@@ -49,7 +51,7 @@
           <!-- <p class="typewriter">A MERN Stack Developer</p> -->
         </div>
         <div class="ppImage">
-          <img src="./images/Pashport.jpg" alt="PassportImage" />
+          <img src="./images/Passport3.png" alt="PassportImage" />
         </div>
       </div>
     </div>
@@ -81,19 +83,19 @@
       </p>
       <p>
         My learning journey has not been limited to theoretical understanding.
-        Through rigorous hands-on projects, I've tackled diverse challenges,
-        from designing responsive user interfaces with React.js to implementing
+        Through rigorous hands-on projects,I've tackled diverse challenges, from
+        designing responsive user interfaces with React.js to implementing
         robust server-side logic with Node.js and Express.js.
       </p>
       <p>
         To solidify my skills, I've actively sought out and engaged in three
         major projects that mirror industry scenarios. These projects,
         documented in my portfolio, showcase my ability to apply the MERN stack
+        <span id="skills"></span>
         to create functional, scalable, and user-centric web applications.
       </p>
     </div>
-
-    <div id="skills">
+    <div id="skills2">
       <h1>Technical Skills</h1>
       <div id="skillsSection">
         <div class="singleSkill">
@@ -147,8 +149,10 @@
           <img src="./images/sass.png" alt="SASS" />
           <p>SASS</p>
         </div>
+        <span></span>
         <div class="singleSkill">
-          <img src="./images/tailwind.png" alt="TailWind" />
+          <img src="./images/tailwind2.png" alt="TailWind" />
+
           <p>Tailwind</p>
         </div>
         <div class="singleSkill">
@@ -161,65 +165,153 @@
       <h1>My Projects</h1>
       <div id="projectSection">
         <div class="project">
-          <div class="projectScreenShot"></div>
-          <div class="projectDescription"></div>
+          <div class="projectScreenShot">
+            <img src="./images/EduSprnit.png" />
+            <div class="liveLinks">
+              <span class="liveLink">
+                <img src="./images/internet.png" />
+                <p>
+                  <a
+                    href="https://byte-harmony-2098.vercel.app/"
+                    target="_blank"
+                    >EduSprint</a
+                  >
+                </p>
+              </span>
+              <span class="gitHubLink">
+                <img src="./images/github icon.png" />
+                <p>
+                  <a
+                    href="https://github.com/Vinay-the-dev-bot"
+                    target="_blank"
+                  >
+                    Github
+                  </a>
+                </p>
+              </span>
+            </div>
+          </div>
+          <div class="projectDescription">
+            <h1>EduSprint</h1>
+            <p>
+              Edusprint: Premier online learning hub featuring courses from
+              leading global universities, offering diverse subjects to empower
+              learners with world-class education and expertise.
+            </p>
+            <div class="techStacks">
+              <img src="./images/html.png" alt="HTML" />
+              <img src="./images/css.png" alt="CSS" />
+              <img src="./images/javascript.png" alt="JavaScript" />
+              <img src="./images/react.png" alt="React" />
+            </div>
+          </div>
         </div>
         <div class="project alternate">
-          <div class="projectScreenShot"></div>
-          <div class="projectDescription"></div>
+          <div class="projectScreenShot">
+            <img src="./images/Travelo.png" />
+            <div class="liveLinks">
+              <span class="liveLink">
+                <img src="./images/internet.png" />
+                <p>
+                  <a
+                    href="https://byte-harmony-2098.vercel.app/"
+                    target="_blank"
+                    >Travelo</a
+                  >
+                </p>
+              </span>
+              <span class="gitHubLink">
+                <img src="./images/github icon.png" />
+                <p>
+                  <a
+                    href="https://github.com/Vinay-the-dev-bot"
+                    target="_blank"
+                  >
+                    Github
+                  </a>
+                </p>
+              </span>
+            </div>
+          </div>
+          <div class="projectDescription">
+            <h1>Travelo</h1>
+            <p>
+              Travelo "Discover the Ultimate Sporting Experience with Travelo –
+              Your One-Stop Destination for Booking Unforgettable Sporting
+              Events.. Elevate your day excitement by securing your tickets
+              effortlessly with us. Your journey to the heart of the action
+              begins here.
+            </p>
+            <div class="techStacks">
+              <img src="./images/html.png" alt="HTML" />
+              <img src="./images/css.png" alt="CSS" />
+              <img src="./images/javascript.png" alt="JavaScript" />
+            </div>
+          </div>
         </div>
         <div class="project">
-          <div class="projectScreenShot"></div>
+          <div class="projectScreenShot">
+            <img src="./images/EduSprnit.png" />
+            <div class="liveLinks">
+              <span class="material-symbols-outlined website"> language </span>
+              <span><img /></span>
+            </div>
+          </div>
           <div class="projectDescription"></div>
         </div>
       </div>
     </div>
-    <div id="gitStats">
+    <div id="statistics">
       <h1>My GitHub Stats</h1>
       <img
         src="https://ghchart.rshah.org/vinay-the-dev-bot"
         alt="Vinay's_GitHub_Calendar "
       />
-      <img
-        src="https://github-readme-stats.vercel.app/api?username=Vinay-the-dev-bot&show_icons=true&theme=gotham&hide_border=false&border_radius=10&card_width=500"
-        alt="Vinay's_GitHub_Calendar "
-      />
-      <img
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vinay-the-dev-bot&show_icons=true&theme=gotham&hide_border=false&border_radius=10&height=500&card_width=500"
-        alt="Vinay's_GitHub_Calendar "
-      />
-      <img
-        src="https://github-readme-streak-stats.herokuapp.com/?user=Vinay-the-dev-bot&theme=gotham&hide_border=false&border_radius=10&date_format=j%20M%5B%20Y%5D&mode=weekly&card_width=500"
-        alt="Vinay's_GitHub_Calendar "
-      />
+      <div class="gitStats2">
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=Vinay-the-dev-bot&show_icons=true&theme=gotham&hide_border=false&border_radius=10&card_width=500"
+          alt="Vinay's_GitHub_Calendar "
+        />
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vinay-the-dev-bot&show_icons=true&theme=gotham&hide_border=false&border_radius=10&height=500&card_width=500"
+          alt="Vinay's_GitHub_Calendar "
+        />
+        <img
+          src="https://github-readme-streak-stats.herokuapp.com/?user=Vinay-the-dev-bot&theme=gotham&hide_border=false&border_radius=10&date_format=j%20M%5B%20Y%5D&mode=weekly&card_width=500"
+          alt="Vinay's_GitHub_Calendar "
+        />
+      </div>
     </div>
     <div id="contact">
-      <div id="contactLeft">
-        <p>
-          <span class="material-symbols-outlined"> call </span>+91 81051 46906
-        </p>
-        <p>
-          <span class="material-symbols-outlined"> mail </span
-          >Vinaygouda.meti16@gmail.com
-        </p>
-        <p>
-          <span class="material-symbols-outlined"> location_on </span
-          >Bagalakote, Karnataka
-        </p>
-      </div>
-      <div id="contactRight">
-        <form>
-          <p>Feel Free To Contact</p>
-          <input type="text" name="name" id="name" placeholder="Name" />
-          <input type="email" name="email" id="email" placeholder="Email" />
-          <input type="text" name="phone" id="phone" placeholder="Subject" />
-          <textarea
-            type="text"
-            name="message"
-            id="message"
-            placeholder="Message"
-          ></textarea>
-        </form>
+      <h1 id="contactHead">Feel Free To Contact</h1>
+      <div id="contactBody">
+        <div id="contactLeft">
+          <p>
+            <span class="material-symbols-outlined"> call </span>+91 81051 46906
+          </p>
+          <p>
+            <span class="material-symbols-outlined"> mail </span
+            >Vinaygouda.meti16@gmail.com
+          </p>
+          <p>
+            <span class="material-symbols-outlined"> location_on </span
+            >Bagalakote, Karnataka
+          </p>
+        </div>
+        <div id="contactRight">
+          <form>
+            <input type="text" name="name" id="name" placeholder="Name" />
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <input type="text" name="phone" id="phone" placeholder="Subject" />
+            <textarea
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Message"
+            ></textarea>
+            <input type="submit" />
+          </form>
+        </div>
       </div>
     </div>
     <div class="homeLinksSection">
@@ -245,12 +337,30 @@
         </a>
       </div>
     </div>
-    <div>
+    <div id="collabSections">
       I am eager to bring my combined expertise in testing and development to a
       dynamic organization that values innovation and excellence. Explore my
       portfolio to see examples of my work and gain insights into my technical
       capabilities. Let's collaborate to build the next generation of reliable
       and cutting-edge software solutions. Thank you for visiting!
+    </div>
+    <div id="footer">
+      <p>M</p>
+      <p>A</p>
+      <p>D</p>
+      <p>E</p>
+      <p>B</p>
+      <p>Y</p>
+      <p>V</p>
+      <p>I</p>
+      <p>N</p>
+      <p>A</p>
+      <p>Y</p>
+      <p>G</p>
+      <p>O</p>
+      <p>U</p>
+      <p>D</p>
+      <p>A</p>
     </div>
   </body>
   <script src="./index.js"></script>
