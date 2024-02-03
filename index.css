@@ -21,6 +21,9 @@ body {
 .navdiv .title_logo > img {
   width: 80px;
 }
+.navdiv .title_logo a {
+  text-decoration: none;
+}
 .navdiv .navbar {
   display: flex;
   flex-direction: row;

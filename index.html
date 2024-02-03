@@ -15,13 +15,16 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <link href="index.css" rel="stylesheet" />
+    <link rel="icon" href="/images/Passport.jpg" />
   </head>
   <body>
     <div class="navdiv" id="nav-menu">
       <nav class="navbar">
         <div class="navLeft">
           <div class="title_logo">
-            <h1 id="namelogo">Vinayagoud</h1>
+            <a href="https://vinay-the-dev-bot.github.io/"
+              ><h1 id="namelogo">Vinayagoud</h1></a
+            >
           </div>
           <ul class="menu">
             <li><a href="#home" class="nav-link home">Home</a></li>
@@ -53,12 +56,16 @@
           <div class="homeName">
             <p>Hi,</p>
             <p>I am</p>
-            <p>Vinayagoud Meti</p>
+            <p id="user-detail-name">Vinayagoud Meti</p>
           </div>
           <!-- <p class="typewriter">A MERN Stack Developer</p> -->
         </div>
         <div class="ppImage">
-          <img src="./images/Passport3.png" alt="PassportImage" />
+          <img
+            src="./images/Passport3.png"
+            alt="PassportImage"
+            class="home-img"
+          />
         </div>
       </div>
     </div>
@@ -72,7 +79,7 @@
       <h1>About Me</h1>
 
       <h3>Professional Background:</h3>
-      <p>
+      <p id="user-detail-intro">
         With 2 years of experience in both automation and manual testing, I have
         a proven track record of delivering reliable software solutions. My
         expertise includes designing and implementing test strategies, creating
@@ -170,7 +177,7 @@
     <div id="projects">
       <h1>My Projects</h1>
       <div id="projectSection">
-        <div class="project alternate">
+        <div class="project alternate project-card">
           <div class="projectScreenShot">
             <img src="./images/EduSprnit.png" />
             <div class="liveLinks">
@@ -213,7 +220,7 @@
             </div>
           </div>
         </div>
-        <div class="project">
+        <div class="project project-card">
           <div class="projectScreenShot">
             <img src="./images/Travelo.png" />
             <div class="liveLinks">
@@ -258,23 +265,27 @@
         </div>
       </div>
     </div>
-    <div id="statistics">
+    <div id="statistics" class="skills-card">
       <h1>My GitHub Stats</h1>
       <img
+        class="react-activity-calendar"
         src="https://ghchart.rshah.org/vinay-the-dev-bot"
         alt="Vinay's_GitHub_Calendar "
       />
       <div class="gitStats2">
         <img
+          id="github-stats-card"
           src="https://github-readme-stats.vercel.app/api?username=Vinay-the-dev-bot&show_icons=true&theme=gotham&hide_border=false&border_radius=10&card_width=500"
           alt="Vinay's_GitHub_Calendar "
         />
         <img
+          id="github-top-langs"
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vinay-the-dev-bot&show_icons=true&theme=gotham&hide_border=false&border_radius=10&height=500&card_width=500"
           alt="Vinay's_GitHub_Calendar "
         />
         <span id="contact"></span>
         <img
+          id="github-streak-stats"
           src="https://github-readme-streak-stats.herokuapp.com/?user=Vinay-the-dev-bot&theme=gotham&hide_border=false&border_radius=10&date_format=j%20M%5B%20Y%5D&mode=weekly&card_width=500"
           alt="Vinay's_GitHub_Calendar "
         />
@@ -284,10 +295,10 @@
       <h1 id="contactHead">Feel Free To Contact</h1>
       <div id="contactBody">
         <div id="contactLeft">
-          <p>
+          <p id="contact-phone">
             <span class="material-symbols-outlined"> call </span>+91 81051 46906
           </p>
-          <p>
+          <p id="contact-email">
             <span class="material-symbols-outlined"> mail </span
             >Vinaygouda.meti16@gmail.com
           </p>
@@ -315,7 +326,11 @@
     <div class="homeLinksSection">
       <div class="homeLinks">
         <div id="socialMedia1">
-          <a href="https://github.com/Vinay-the-dev-bot" target="_blank">
+          <a
+            id="contact-github"
+            href="https://github.com/Vinay-the-dev-bot"
+            target="_blank"
+          >
             <p>GitHub</p>
           </a>
           <img src="./images/github icon.png" alt="HTML" />
