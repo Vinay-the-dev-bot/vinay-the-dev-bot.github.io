@@ -19,25 +19,32 @@
   <body>
     <div class="navdiv" id="nav-menu">
       <nav class="navbar">
-        <div class="title_logo">
-          <h1 id="namelogo">Vinayagoud</h1>
+        <div class="navLeft">
+          <div class="title_logo">
+            <h1 id="namelogo">Vinayagoud</h1>
+          </div>
+          <ul class="menu">
+            <li><a href="#home" class="nav-link home">Home</a></li>
+            <li><a href="#about" class="nav-link about">About</a></li>
+            <li><a href="#skills" class="nav-link skills">Skills</a></li>
+            <li><a href="#projects" class="nav-link projects">Projects</a></li>
+            <li>
+              <a href="#statistics" class="nav-link">Statistics</a>
+            </li>
+            <li><a href="#contact" class="nav-link contact"> Contact</a></li>
+            <li id="resume-button-1" class="nav-link resume">
+              <!-- <button>Resume</button> -->
+              <button id="downloadButton">Resume</button>
+              <!-- <input type="button" id="btn" value="Download" /> -->
+              <!-- </li> -->
+            </li>
+          </ul>
         </div>
-        <ul class="menu">
-          <li><a href="#home" class="nav-link home">Home</a></li>
-          <li><a href="#about" class="nav-link about">About</a></li>
-          <li><a href="#skills" class="nav-link skills">Skills</a></li>
-          <li><a href="#projects" class="nav-link projects">Projects</a></li>
-          <li>
-            <a href="#statistics" class="nav-link">Statistics</a>
-          </li>
-          <li><a href="#contact" class="nav-link contact"> Contact</a></li>
-          <li id="resume-button-1" class="nav-link resume">
-            <!-- <button>Resume</button> -->
-            <button id="downloadButton">Download PDF</button>
-            <!-- <input type="button" id="btn" value="Download" /> -->
-            <!-- </li> -->
-          </li>
-        </ul>
+        <div id="container">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
       </nav>
     </div>
     <div id="home">
@@ -149,7 +156,6 @@
           <img src="./images/sass.png" alt="SASS" />
           <p>SASS</p>
         </div>
-        <span></span>
         <div class="singleSkill">
           <img src="./images/tailwind2.png" alt="TailWind" />
 
@@ -164,7 +170,7 @@
     <div id="projects">
       <h1>My Projects</h1>
       <div id="projectSection">
-        <div class="project">
+        <div class="project alternate">
           <div class="projectScreenShot">
             <img src="./images/EduSprnit.png" />
             <div class="liveLinks">
@@ -174,6 +180,7 @@
                   <a
                     href="https://byte-harmony-2098.vercel.app/"
                     target="_blank"
+                    class="eduSprint"
                     >EduSprint</a
                   >
                 </p>
@@ -199,14 +206,14 @@
               learners with world-class education and expertise.
             </p>
             <div class="techStacks">
+              <img src="./images/react.png" alt="React" />
               <img src="./images/html.png" alt="HTML" />
               <img src="./images/css.png" alt="CSS" />
               <img src="./images/javascript.png" alt="JavaScript" />
-              <img src="./images/react.png" alt="React" />
             </div>
           </div>
         </div>
-        <div class="project alternate">
+        <div class="project">
           <div class="projectScreenShot">
             <img src="./images/Travelo.png" />
             <div class="liveLinks">
@@ -249,16 +256,6 @@
             </div>
           </div>
         </div>
-        <div class="project">
-          <div class="projectScreenShot">
-            <img src="./images/EduSprnit.png" />
-            <div class="liveLinks">
-              <span class="material-symbols-outlined website"> language </span>
-              <span><img /></span>
-            </div>
-          </div>
-          <div class="projectDescription"></div>
-        </div>
       </div>
     </div>
     <div id="statistics">
@@ -276,13 +273,14 @@
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vinay-the-dev-bot&show_icons=true&theme=gotham&hide_border=false&border_radius=10&height=500&card_width=500"
           alt="Vinay's_GitHub_Calendar "
         />
+        <span id="contact"></span>
         <img
           src="https://github-readme-streak-stats.herokuapp.com/?user=Vinay-the-dev-bot&theme=gotham&hide_border=false&border_radius=10&date_format=j%20M%5B%20Y%5D&mode=weekly&card_width=500"
           alt="Vinay's_GitHub_Calendar "
         />
       </div>
     </div>
-    <div id="contact">
+    <div id="contact2">
       <h1 id="contactHead">Feel Free To Contact</h1>
       <div id="contactBody">
         <div id="contactLeft">
@@ -309,48 +307,46 @@
               id="message"
               placeholder="Message"
             ></textarea>
-            <input type="submit" />
+            <input type="submit" id="submit" />
           </form>
         </div>
       </div>
     </div>
     <div class="homeLinksSection">
       <div class="homeLinks">
-        <a href="https://github.com/Vinay-the-dev-bot">
-          <div id="socialMedia1">
+        <div id="socialMedia1">
+          <a href="https://github.com/Vinay-the-dev-bot" target="_blank">
             <p>GitHub</p>
-            <img src="./images/github icon.png" alt="HTML" />
-          </div>
-        </a>
-        <a href="https://github.com/Vinay-the-dev-bot">
-          <div id="socialMedia2">
+          </a>
+          <img src="./images/github icon.png" alt="HTML" />
+        </div>
+        <div id="socialMedia2">
+          <a href="https://www.instagram.com/ig_vinaymm" target="_blank">
             <p>Instagram</p>
-            <img src="./images/instagram icon.png" alt="CSS" />
-          </div>
-        </a>
+          </a>
+          <img src="./images/instagram icon.png" alt="CSS" />
+        </div>
 
-        <a href="https://github.com/Vinay-the-dev-bot">
-          <div id="socialMedia3">
+        <div id="socialMedia3">
+          <a
+            href="https://www.linkedin.com/in/vinayagoud-meti/"
+            target="_blank"
+          >
             <p>LinkedIn</p>
-            <img src="./images/linkedIn icon.png" alt="JavaScript" />
-          </div>
-        </a>
+          </a>
+          <img src="./images/linkedIn icon.png" alt="JavaScript" />
+        </div>
       </div>
-    </div>
-    <div id="collabSections">
-      I am eager to bring my combined expertise in testing and development to a
-      dynamic organization that values innovation and excellence. Explore my
-      portfolio to see examples of my work and gain insights into my technical
-      capabilities. Let's collaborate to build the next generation of reliable
-      and cutting-edge software solutions. Thank you for visiting!
     </div>
     <div id="footer">
       <p>M</p>
       <p>A</p>
       <p>D</p>
       <p>E</p>
+      <span></span>
       <p>B</p>
       <p>Y</p>
+      <span></span>
       <p>V</p>
       <p>I</p>
       <p>N</p>
