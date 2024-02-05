@@ -60,7 +60,10 @@ body{
                     padding-left: 16px;
                     padding-right: 16px; 
                     margin-left: 20px;
-                    transition: box-shadow .15s, transform .15s;  
+                    transition: box-shadow .15s, transform .15s; 
+                    a{
+                        text-decoration: none;
+                    } 
                 }
 
                 #downloadButton:focus {
@@ -105,6 +108,10 @@ body{
                             }
                         }
                 
+                        @media all and (min-width:768px) and (max-width:1007px) {
+                            display: none;
+                            align-items: center;
+                        }
                         @media all and (max-width:768px) {
                             display: none;
                             align-items: center;
@@ -122,12 +129,22 @@ body{
                         font-weight: bolder;
                         font-family: poppins;
                         cursor: pointer;
-                        
+                        @media all and (min-width:768px) and (max-width:1007px) {
+                                margin: auto;
+                            }
                         @media all and (max-width:768px) {
                             margin: auto;
                             // padding-left: 50px;
                             }
                     }
+            @media all and (min-width:768px) and (max-width:1007px) {
+                flex-direction: column;
+                    align-items: center;
+            }
+            @media all and (max-width:768px) {
+                flex-direction: column;
+                align-items: center; 
+            }
             }
             #container{ 
             display: none; 
@@ -143,19 +160,21 @@ body{
             }
             .bar1.change {
                     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-                    transform: rotate(-45deg) translate(-9px, 6px);
-                    margin-left: 80%;
+                    transform: rotate(-45deg) translate(-9px, 6px); 
             }
         
             .bar2.change  {
-                opacity: 0;
-                margin-left: 80%;
+                opacity: 0; 
             }
         
             .bar3.change {
             -webkit-transform: rotate(45deg) translate(-05px, -03px);
-            transform: rotate(45deg) translate(-05px, -03px);
-            margin-left: 80%;
+            transform: rotate(45deg) translate(-05px, -03px); 
+            }
+            @media all and (min-width:768px) and (max-width:1007px) {
+                display: block;
+                    width: fit-content;
+                    margin: 0;
             }
             @media all and (max-width:768px) { 
                 display: block; 
@@ -164,6 +183,9 @@ body{
             }
             }
             
+        }
+        @media all and (min-width:768px) and (max-width:1007px) {
+            padding: 10px 0;
         }
         @media all and (max-width:768px) {
             padding: 10px 0;
@@ -183,7 +205,8 @@ body{
 
 #home {
     background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
-    padding: 50px; 
+    padding: 50px 50px 0 50px; 
+    border-radius: 5px;
     width: 85%;
     margin: auto;
     .intro {
@@ -191,35 +214,68 @@ body{
         width: 100%;
         .name {
             width: 60%; 
-            padding: 30px;
-                
+            padding: 30px; 
             .homeName {
                 font-size: 5rem;
                 text-wrap: wrap;
                 width: 50%;
+            @media all and (min-width:768px) and (max-width:1007px) {
+                    padding-left: 40px;
+                    font-size: 2rem;
+                    margin: auto;
+                }
             @media all and (max-width:768px) {
                 font-size: 2rem;
+                margin: auto;
             }
             }
+        @media all and (min-width:768px) and (max-width:1007px) {
+            margin: auto;
+            width: 80%;
+        }
         @media all and (max-width:768px) {
-             width: 100%;
+            margin: auto;
+             width: 80%;
         }
         }
         .ppImage {
         width: 25%;
             img { 
-                border-radius: 5%;
+                width: 130%;
+                border-radius: 5%;  
+            @media all and (max-width:768px) { 
+                        width: 50%;
+                        position: static; 
+            } 
+            @media all and (min-width:768px) and (max-width:1007px) {
+                width: 50%;
+                margin-bottom: 40px;
+                position: static;
             }
+            }
+        @media all and (min-width:768px) and (max-width:1007px){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        }
         @media all and (max-width:768px) {
             width: 100%;
             display: flex;
             justify-content: center;
         }
         }
+    @media all and (min-width:768px) and (max-width:1007px){
+    display: flex;
+    // flex-direction: column-reverse;
+    }
     @media all and (max-width:768px) {
         display: flex; 
         flex-direction: column-reverse;
     }
+    }
+    @media all and (min-width:768px) and (max-width:1007px){
+    padding: 0;
+    width: 100%;
     }
     @media all and (max-width:768px) {
         padding:  0;
@@ -557,7 +613,20 @@ body{
         align-items: baseline;
         img{
             width: 33%;
+        &:hover{
+            transform: translateY(-2px);
         }
+        }
+    @media all and (min-width:768px) and (max-width:1007px) {
+    flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 0;
+    
+        img {
+            width: 100%;
+        }
+    }
     @media all and (max-width:768px) {
         flex-direction: column;
         padding: 0;
@@ -625,12 +694,10 @@ body{
  
                 span {
                     padding: 0 15px;
-                    font-size: 30px;
-                  
-                            
-            @media all and (max-width:768px) { 
-            padding: 0 5px;
-            } 
+                    font-size: 30px; 
+                @media all and (max-width:768px) { 
+                padding: 0 5px;
+                } 
                 }
 
                 p {
@@ -642,10 +709,16 @@ body{
                 margin-bottom: 10px;
                 display: flex;
                 align-items: center;
+                @media all and (min-width:768px) and (max-width:1007px) {
+                        width: 95%;
+                }
                 @media all and (max-width:768px) {
                         width: 100%;
                 }
                 }
+            @media all and (min-width:768px) and (max-width:1007px) {
+                width: 95%; 
+            }
             @media all and (max-width:768px) {
                 width: 95%;
             }
@@ -674,6 +747,12 @@ body{
                     #submit{
                         cursor: pointer;
                     }
+                @media all and (min-width:768px) and (max-width:1007px) {
+                width: 95%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                }
                 @media all and (max-width:768px) {
                 width: 100%;
                 display: flex;
@@ -682,6 +761,12 @@ body{
                 }
                                        
                 }
+            @media all and (min-width:768px) and (max-width:1007px) {
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
             @media all and (max-width:768px) {
                 width: 95%; 
                 display: flex;
@@ -689,6 +774,10 @@ body{
                 align-items: center;
             }
             }
+    @media all and (min-width:768px) and (max-width:1007px){
+    flex-direction: column;
+    align-items: center;
+    }
     @media all and (max-width:768px) {
         flex-direction: column;
         align-items: center;
@@ -728,6 +817,9 @@ body{
             a {
                 text-decoration: none;
                 transform: scaleY(0);
+                p{
+                    margin-bottom: 10px;
+                }
             }
         }
 
@@ -743,6 +835,7 @@ body{
         #socialMedia3 p {
                position: relative;
                top: 3px;
+
                transition: .5s; 
                font-size: 0px;
                overflow: hidden;
@@ -765,6 +858,7 @@ body{
     width: 80%;
     flex-direction: column;
     height: 500px;
+    margin: auto;
      
 }
 }

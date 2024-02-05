@@ -58,6 +58,9 @@ body {
   margin-left: 20px;
   transition: box-shadow 0.15s, transform 0.15s;
 }
+.navdiv .navbar .navLeft #downloadButton a {
+  text-decoration: none;
+}
 .navdiv .navbar .navLeft #downloadButton:focus {
   box-shadow: #12CFB1 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #12CFB1 0 -3px 0 inset;
 }
@@ -91,6 +94,12 @@ body {
   color: #64D6C9;
   text-decoration: underline;
 }
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  .navdiv .navbar .navLeft .menu {
+    display: none;
+    align-items: center;
+  }
+}
 @media all and (max-width: 768px) {
   .navdiv .navbar .navLeft .menu {
     display: none;
@@ -106,9 +115,26 @@ body {
   font-family: poppins;
   cursor: pointer;
 }
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  .navdiv .navbar .navLeft h1 {
+    margin: auto;
+  }
+}
 @media all and (max-width: 768px) {
   .navdiv .navbar .navLeft h1 {
     margin: auto;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  .navdiv .navbar .navLeft {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media all and (max-width: 768px) {
+  .navdiv .navbar .navLeft {
+    flex-direction: column;
+    align-items: center;
   }
 }
 .navdiv .navbar #container {
@@ -126,15 +152,20 @@ body {
 }
 .navdiv .navbar #container .bar1.change {
   transform: rotate(-45deg) translate(-9px, 6px);
-  margin-left: 80%;
 }
 .navdiv .navbar #container .bar2.change {
   opacity: 0;
-  margin-left: 80%;
 }
 .navdiv .navbar #container .bar3.change {
   transform: rotate(45deg) translate(-5px, -3px);
-  margin-left: 80%;
+}
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  .navdiv .navbar #container {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0;
+  }
 }
 @media all and (max-width: 768px) {
   .navdiv .navbar #container {
@@ -142,6 +173,11 @@ body {
     width: -moz-fit-content;
     width: fit-content;
     margin: 0;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  .navdiv {
+    padding: 10px 0;
   }
 }
 @media all and (max-width: 768px) {
@@ -158,7 +194,8 @@ body {
 
 #home {
   background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
-  padding: 50px;
+  padding: 50px 50px 0 50px;
+  border-radius: 5px;
   width: 85%;
   margin: auto;
 }
@@ -175,21 +212,57 @@ body {
   text-wrap: wrap;
   width: 50%;
 }
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #home .intro .name .homeName {
+    padding-left: 40px;
+    font-size: 2rem;
+    margin: auto;
+  }
+}
 @media all and (max-width: 768px) {
   #home .intro .name .homeName {
     font-size: 2rem;
+    margin: auto;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #home .intro .name {
+    margin: auto;
+    width: 80%;
   }
 }
 @media all and (max-width: 768px) {
   #home .intro .name {
-    width: 100%;
+    margin: auto;
+    width: 80%;
   }
 }
 #home .intro .ppImage {
   width: 25%;
 }
 #home .intro .ppImage img {
+  width: 130%;
   border-radius: 5%;
+}
+@media all and (max-width: 768px) {
+  #home .intro .ppImage img {
+    width: 50%;
+    position: static;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #home .intro .ppImage img {
+    width: 50%;
+    margin-bottom: 40px;
+    position: static;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #home .intro .ppImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
 @media all and (max-width: 768px) {
   #home .intro .ppImage {
@@ -198,10 +271,21 @@ body {
     justify-content: center;
   }
 }
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #home .intro {
+    display: flex;
+  }
+}
 @media all and (max-width: 768px) {
   #home .intro {
     display: flex;
     flex-direction: column-reverse;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #home {
+    padding: 0;
+    width: 100%;
   }
 }
 @media all and (max-width: 768px) {
@@ -527,6 +611,20 @@ body {
 #statistics .gitStats2 img {
   width: 33%;
 }
+#statistics .gitStats2 img:hover {
+  transform: translateY(-2px);
+}
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #statistics .gitStats2 {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+  #statistics .gitStats2 img {
+    width: 100%;
+  }
+}
 @media all and (max-width: 768px) {
   #statistics .gitStats2 {
     flex-direction: column;
@@ -612,9 +710,19 @@ body {
   display: flex;
   align-items: center;
 }
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #contact2 #contactBody #contactLeft p {
+    width: 95%;
+  }
+}
 @media all and (max-width: 768px) {
   #contact2 #contactBody #contactLeft p {
     width: 100%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #contact2 #contactBody #contactLeft {
+    width: 95%;
   }
 }
 @media all and (max-width: 768px) {
@@ -648,6 +756,14 @@ body {
 #contact2 #contactBody #contactRight form #submit {
   cursor: pointer;
 }
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #contact2 #contactBody #contactRight form {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
 @media all and (max-width: 768px) {
   #contact2 #contactBody #contactRight form {
     width: 100%;
@@ -656,10 +772,24 @@ body {
     justify-content: space-evenly;
   }
 }
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #contact2 #contactBody #contactRight {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media all and (max-width: 768px) {
   #contact2 #contactBody #contactRight {
     width: 95%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1007px) {
+  #contact2 #contactBody {
     flex-direction: column;
     align-items: center;
   }
@@ -711,6 +841,11 @@ body {
   text-decoration: none;
   transform: scaleY(0);
 }
+.homeLinks #socialMedia1 a p,
+.homeLinks #socialMedia2 a p,
+.homeLinks #socialMedia3 a p {
+  margin-bottom: 10px;
+}
 .homeLinks #socialMedia1 img,
 .homeLinks #socialMedia2 img,
 .homeLinks #socialMedia3 img {
@@ -744,6 +879,7 @@ body {
     width: 80%;
     flex-direction: column;
     height: 500px;
+    margin: auto;
   }
 }
 
