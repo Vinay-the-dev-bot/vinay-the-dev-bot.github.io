@@ -36,6 +36,13 @@ cont.addEventListener("click", () => {
     menu.style.alignItems = "center";
   } else {
     // menu.style.display = "none";
+    // console.log("jdjskdsbv");
+    // console.log(screen.width);
+    if (screen.width > 1007) {
+      menu.style.display = "row";
+    } else {
+      menu.style.display = "none";
+    }
   }
 
   let navLeft = document.getElementsByClassName("navLeft")[0];
