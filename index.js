@@ -35,7 +35,7 @@ cont.addEventListener("click", () => {
     menu.style.flexDirection = "column";
     menu.style.alignItems = "center";
   } else {
-    menu.style.display = "none";
+    // menu.style.display = "none";
   }
 
   let navLeft = document.getElementsByClassName("navLeft")[0];
@@ -55,7 +55,7 @@ navLinks.forEach((link) => {
     const bar1 = document.getElementsByClassName("bar1")[0];
     const bar2 = document.getElementsByClassName("bar2")[0];
     const bar3 = document.getElementsByClassName("bar3")[0];
-    console.log("Before", bar1.classList.contains("change"));
+    // console.log("Before", bar1.classList.contains("change"));
     if (bar1.classList.contains("change")) {
       bar1.classList = "bar1";
     }
@@ -67,6 +67,11 @@ navLinks.forEach((link) => {
     }
     // console.log("After", bar1.classList.contains("change"));
     const menu = document.getElementsByClassName("menu")[0];
-    menu.style.display = "none";
+    console.log(screen.width);
+    if (screen.width > 1007) {
+      menu.style.display = "row";
+    } else {
+      menu.style.display = "none";
+    }
   });
 });
