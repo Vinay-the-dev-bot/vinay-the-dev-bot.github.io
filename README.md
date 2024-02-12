@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-# I'm, Vinayagoud Meti! <div style="font-size:15px; padding-top:5px" ><span style="opacity:0">`</span> Aspiring Full Stack Web Developer</div>
+# I'm, Vinayagoud Meti! <div style="font-size:15px; padding-top:5px" >Aspiring Full Stack Web Developer</div>
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&size=30&duration=4000&pause=500&color=2AA885&center=true&multiline=true&random=false&width=800&height=110&lines=Full+Stack+Web+Developer;1000%2B+Hours+of+Coding+Experience;300%2B+DSA+Questions+Solved)
 
