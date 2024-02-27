@@ -362,10 +362,11 @@ body {
 }
 #skills2 #skillsSection {
   margin-top: 20px;
-  display: grid;
-  grid-template-columns: repeat(4, 120px);
-  grid-template-rows: repeat(4, 120px);
-  justify-content: center;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   gap: 20px;
 }
 #skills2 #skillsSection .singleSkill {
@@ -380,6 +381,7 @@ body {
 #skills2 #skillsSection .singleSkill img {
   height: 80px;
   width: 80px;
+  border-radius: 5px;
 }
 #skills2 #skillsSection .singleSkill p {
   position: relative;
@@ -396,9 +398,7 @@ body {
 }
 @media all and (max-width: 768px) {
   #skills2 #skillsSection {
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 120px);
-    justify-content: center;
+    width: 100%;
     gap: 20px;
   }
 }
@@ -517,8 +517,11 @@ body {
 }
 #projects #projectSection .project .projectDescription .techStacks {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 80%;
   margin: 15px 0;
   padding: 10px;
   border-radius: 10px;
@@ -535,6 +538,11 @@ body {
 }
 #projects #projectSection .project .projectDescription .techStacks:hover {
   background-color: white;
+}
+@media all and (max-width: 768px) {
+  #projects #projectSection .project .projectDescription .techStacks {
+    flex-wrap: wrap;
+  }
 }
 @media all and (max-width: 768px) {
   #projects #projectSection .project .projectDescription {
@@ -803,6 +811,7 @@ body {
 @media all and (max-width: 768px) {
   #contact2 {
     gap: 20px;
+    width: 90%;
     padding: 40px 0 10px 0;
   }
   #contact2 img {
