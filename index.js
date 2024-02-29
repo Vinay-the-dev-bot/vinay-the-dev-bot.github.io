@@ -1,11 +1,11 @@
 document
   .getElementById("downloadButton")
   .addEventListener("click", function () {
-    var pdfUrl = "/Vinayagoud-Meti-resume.pdf";
+    var pdfUrl = "/Vinayagoud_Meti_Resume.pdf";
 
     var link = document.createElement("a");
 
-    link.setAttribute("download", "Vinayagoud-Meti-Resume.pdf");
+    link.setAttribute("download", "Vinayagoud_Meti_Resume.pdf");
     link.href = pdfUrl;
 
     document.body.appendChild(link);
