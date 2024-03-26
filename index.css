@@ -494,8 +494,9 @@ body {
   text-decoration: none;
 }
 #projects #projectSection .project .projectScreenShot .liveLinks .gitHubLink:hover p, #projects #projectSection .project .projectScreenShot .liveLinks .liveLink:hover p {
-  width: 50px;
-  padding: 0 30px 0 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 10px;
   opacity: 1;
   scale: 1;
 }
