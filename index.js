@@ -81,3 +81,12 @@ navLinks.forEach((link) => {
     }
   });
 });
+
+window.addEventListener("scroll", function () {
+  var goToTop = document.querySelector(".goToTop");
+  if (window.pageYOffset > 500) {
+    goToTop.style.opacity = "1";
+  } else {
+    goToTop.style.opacity = "0";
+  }
+});

@@ -205,13 +205,14 @@ body{
 
 #home {
     background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
-    padding: 50px 50px 0 50px; 
+    padding: 20px 50px; 
     border-radius: 5px;
     width: 85%;
     margin: auto;
     .intro {
         display: flex;
-        width: 100%;
+        width: 100%; 
+        align-items: center;
         .name {
             width: 60%; 
             padding: 30px; 
@@ -240,6 +241,8 @@ body{
         }
         .ppImage {
         width: 25%;
+        display: flex;
+        align-items: center;
             img { 
                 width: 130%;
                 border-radius: 5%;  
@@ -348,35 +351,25 @@ body{
     }
     #skillsSection {
         margin-top: 20px;
-        width: 40%;
+        width: 80%;
         margin: auto;
-        display: flex;
-        // grid-template-columns: repeat(4, 120px);
-        // grid-template-rows: repeat(4,120px);
+        display: flex; 
         justify-content: space-around;
         flex-wrap: wrap;
         gap: 20px;
         .singleSkill{
             display: flex;
             flex-direction: column;
-            align-items: center;
-            // display: flex;
-            // justify-content: space-around;
+            align-items: center; 
             border-radius: 5px;
             padding: 10px;
             transition: .5s;
-            // box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-            // box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-            // box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-            // box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
             box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-            // box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-            // box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
                 img {
-                        height: 80px;
-                        width: 80px;
+                        height: 100px;
+                        width: 100px;
                         border-radius: 5px;
-                    }
+                }
                 p{
                     position: relative;
                     top: 3px;    
@@ -384,9 +377,7 @@ body{
                     transition: .5s; 
                 }
             &:hover {
-                transform: scale(1.2);
-                // transform: height(150px);
-                // height: 120px;
+                transform: scale(1.2); 
                 p {
                     scale: 1;
                     color: #0faaf1;
@@ -394,10 +385,7 @@ body{
             }        
         }
         @media all and (max-width:768px) {
-            width: 100%;
-        // grid-template-columns: repeat(3, 100px) ;
-        // grid-template-rows: repeat(3,120px);
-        // justify-content: center;
+        width: 100%; 
         gap: 20px;
         }
     }
@@ -470,6 +458,7 @@ body{
                 display: flex;
                 gap: 20px;
                 justify-content: center;
+                transition: all .5s;
                 .gitHubLink, .liveLink{
                     display: flex;
                     background-color: white; 
@@ -497,6 +486,7 @@ body{
                 .gitHubLink:hover,.liveLink:hover{ 
                     p{ 
                         width: fit-content;
+                        transition: all .5s;
                         padding: 0 10px;
                         // width: 50px; 
                         // padding: 0 50px 0 20px; 
@@ -900,4 +890,19 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color: #12CFB1;
+}
+.goToTop{
+    position: fixed;
+    width: 50px;
+    left: 95%;
+    top: 85%;
+    // transition: all .5s;
+    img{ 
+        width: 90%;
+        transform: rotate(-90deg);
+    }
+} 
+html {
+    scroll-behavior: smooth; 
+    transition: all .5s;
 }
