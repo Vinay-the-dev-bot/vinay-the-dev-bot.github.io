@@ -935,6 +935,11 @@ body {
   width: 90%;
   transform: rotate(-90deg);
 }
+@media all and (max-width: 768px) {
+  .goToTop {
+    left: 85%;
+  }
+}
 
 html {
   scroll-behavior: smooth;
