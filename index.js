@@ -1,7 +1,8 @@
 document
   .getElementById("downloadButton")
   .addEventListener("click", function () {
-    var pdfUrl = "/Vinayagoud Meti Resume.pdf";
+    var pdfUrl =
+      "https://drive.google.com/uc?export=download&id=1FA864u-SOaS4ASNt0-59XR8UpnqSXy7P";
 
     var link = document.createElement("a");
 
