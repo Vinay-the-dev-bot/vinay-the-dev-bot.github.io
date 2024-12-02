@@ -2,7 +2,8 @@ document
   .getElementById("downloadButton")
   .addEventListener("click", function () {
     var pdfUrl =
-      "https://drive.google.com/uc?export=download&id=1FA864u-SOaS4ASNt0-59XR8UpnqSXy7P";
+      "https://drive.google.com/uc?export=download&id=1_mkqc9sIlVvbEcl_KCoejgaOvJ6JXVw6";
+    // "https://drive.google.com/uc?export=download&id=1FA864u-SOaS4ASNt0-59XR8UpnqSXy7P";
 
     var link = document.createElement("a");
 
