@@ -1,6 +1,5 @@
 body {
   width: 100%;
-  // border: 1px solid black;
 }
 * {
   font-family: "Poppins", sans-serif;
@@ -31,18 +30,10 @@ body {
     padding: 0 50px;
     background-color: transparent;
     vertical-align: middle;
-    /// transition: all 0.3s ease;
     .navLeft {
       display: flex;
       justify-content: space-between;
       width: 100%;
-      // button {
-      //         padding: 0 30px;
-      //         height: 30px;
-      //         cursor: pointer;
-      //     }
-
-      /* CSS */
       #downloadButton {
         align-items: center;
         appearance: none;
@@ -51,7 +42,6 @@ body {
         border-width: 0;
         box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
           rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #12cfb1 0 -3px 0 inset;
-        // box-sizing: border-box;
         color: #36395a;
         cursor: pointer;
         display: inline-flex;
@@ -85,12 +75,10 @@ body {
       .menu {
         display: flex;
         gap: 10px;
-        // transition: 2s;
 
         li {
           list-style: none;
           display: inline-block;
-          // transition: 2s;
 
           a {
             display: block;
@@ -121,12 +109,10 @@ body {
 
       .logo a span {
         color: #12cfb1;
-        /// transition: all 0.3s ease;
       }
 
       h1 {
         color: black;
-        // bottom: 10px;
         font-weight: bolder;
         font-family: poppins;
         cursor: pointer;
@@ -135,7 +121,6 @@ body {
         }
         @media all and (max-width: 768px) {
           margin: auto;
-          // padding-left: 50px;
         }
       }
       @media all and (min-width: 768px) and (max-width: 1007px) {
@@ -189,13 +174,10 @@ body {
   }
   @media all and (max-width: 768px) {
     padding: 10px 0;
-    // background-color: red;
   }
 }
 
 #typewriter2 > img {
-  // width: 100%;
-  // padding: 50px 0;
   display: block;
   margin: auto;
   width: 80%;
@@ -267,7 +249,6 @@ body {
     }
     @media all and (min-width: 768px) and (max-width: 1007px) {
       display: flex;
-      // flex-direction: column-reverse;
     }
     @media all and (max-width: 768px) {
       display: flex;
@@ -284,9 +265,21 @@ body {
   }
 }
 #about {
-  // padding: 50px;
   padding-bottom: 0;
   padding-top: 100px;
+  #user-detail-intro {
+    h2 {
+      width: fit-content;
+      margin-left: 15%;
+      display: block;
+      position: relative;
+      text-align: left;
+    }
+    p {
+      margin: auto;
+      width: 70%;
+    }
+  }
   h1 {
     width: fit-content;
     margin-left: 15%;
@@ -325,7 +318,6 @@ body {
   h1 {
     width: fit-content;
     margin: 20px auto;
-    // padding: 20px ;
     font-family: "Poppins", sans-serif;
     display: inline-block;
     position: relative;
@@ -352,7 +344,7 @@ body {
     width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     flex-wrap: wrap;
     gap: 20px;
     .singleSkill {
@@ -399,7 +391,6 @@ body {
   h1 {
     width: fit-content;
     margin: 20px auto;
-    // padding: 20px ;
     font-family: "Poppins", sans-serif;
     display: inline-block;
     position: relative;
@@ -490,8 +481,6 @@ body {
               width: fit-content;
               transition: all 0.5s;
               padding: 0 10px;
-              // width: 50px;
-              // padding: 0 50px 0 20px;
               opacity: 1;
               scale: 1;
             }
@@ -545,16 +534,11 @@ body {
             border-radius: 10px;
           }
 
-          // img:hover {
-          //     height: 55px;
-          //     width: 55px;
-          // }
           &:hover {
             background-color: white;
           }
           @media all and (max-width: 768px) {
             flex-wrap: wrap;
-            // height: 50px;
           }
         }
         @media all and (max-width: 768px) {
@@ -589,7 +573,6 @@ body {
 }
 #statistics {
   width: 80%;
-  // padding: 80px 0;
   margin: auto;
   h1 {
     padding: 100px 0 0px 0;
@@ -665,7 +648,6 @@ body {
   gap: 40px;
   flex-direction: column;
   top: 30px;
-  // height: 400px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
@@ -884,7 +866,6 @@ body {
   width: 80%;
 }
 #footer {
-  // width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -897,7 +878,6 @@ body {
   left: 95%;
   top: 85%;
   transition-duration: 1s;
-  // transition: all .5s;
   img {
     width: 90%;
     transform: rotate(-90deg);

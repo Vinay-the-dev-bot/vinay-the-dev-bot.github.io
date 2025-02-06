@@ -37,18 +37,17 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* CSS */
 }
 .navdiv .navbar .navLeft #downloadButton {
   align-items: center;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background-color: #12CFB1;
+  background-color: #12cfb1;
   border-radius: 4px;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #12CFB1 0 -3px 0 inset;
-  color: #36395A;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #12cfb1 0 -3px 0 inset;
+  color: #36395a;
   cursor: pointer;
   display: inline-flex;
   height: 30px;
@@ -62,14 +61,14 @@ body {
   text-decoration: none;
 }
 .navdiv .navbar .navLeft #downloadButton:focus {
-  box-shadow: #12CFB1 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #12CFB1 0 -3px 0 inset;
+  box-shadow: #12cfb1 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #12cfb1 0 -3px 0 inset;
 }
 .navdiv .navbar .navLeft #downloadButton:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #12CFB1 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #12cfb1 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 .navdiv .navbar .navLeft #downloadButton:active {
-  box-shadow: #12CFB1 0 3px 7px inset;
+  box-shadow: #12cfb1 0 3px 7px inset;
   transform: translateY(2px);
 }
 .navdiv .navbar .navLeft .menu {
@@ -91,7 +90,7 @@ body {
   transition: color 0.5s;
 }
 .navdiv .navbar .navLeft .menu li a:hover {
-  color: #64D6C9;
+  color: #64d6c9;
   text-decoration: underline;
 }
 @media all and (min-width: 768px) and (max-width: 1007px) {
@@ -107,7 +106,7 @@ body {
   }
 }
 .navdiv .navbar .navLeft .logo a span {
-  color: #12CFB1;
+  color: #12cfb1;
 }
 .navdiv .navbar .navLeft h1 {
   color: black;
@@ -302,6 +301,18 @@ body {
   padding-bottom: 0;
   padding-top: 100px;
 }
+#about #user-detail-intro h2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 15%;
+  display: block;
+  position: relative;
+  text-align: left;
+}
+#about #user-detail-intro p {
+  margin: auto;
+  width: 70%;
+}
 #about h1 {
   width: -moz-fit-content;
   width: fit-content;
@@ -368,7 +379,7 @@ body {
   width: 80%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -476,28 +487,33 @@ body {
   justify-content: center;
   transition: all 0.5s;
 }
-#projects #projectSection .project .projectScreenShot .liveLinks .gitHubLink, #projects #projectSection .project .projectScreenShot .liveLinks .liveLink {
+#projects #projectSection .project .projectScreenShot .liveLinks .gitHubLink,
+#projects #projectSection .project .projectScreenShot .liveLinks .liveLink {
   display: flex;
   background-color: white;
   border-radius: 25px;
   padding: 10px;
   transition: 0.5s;
 }
-#projects #projectSection .project .projectScreenShot .liveLinks .gitHubLink img, #projects #projectSection .project .projectScreenShot .liveLinks .liveLink img {
+#projects #projectSection .project .projectScreenShot .liveLinks .gitHubLink img,
+#projects #projectSection .project .projectScreenShot .liveLinks .liveLink img {
   height: 25px;
   box-shadow: none;
   transition: 0.5s;
 }
-#projects #projectSection .project .projectScreenShot .liveLinks .gitHubLink p, #projects #projectSection .project .projectScreenShot .liveLinks .liveLink p {
+#projects #projectSection .project .projectScreenShot .liveLinks .gitHubLink p,
+#projects #projectSection .project .projectScreenShot .liveLinks .liveLink p {
   width: 0;
   opacity: 0;
   scale: 0;
   transition: 0.5s;
 }
-#projects #projectSection .project .projectScreenShot .liveLinks .gitHubLink p a, #projects #projectSection .project .projectScreenShot .liveLinks .liveLink p a {
+#projects #projectSection .project .projectScreenShot .liveLinks .gitHubLink p a,
+#projects #projectSection .project .projectScreenShot .liveLinks .liveLink p a {
   text-decoration: none;
 }
-#projects #projectSection .project .projectScreenShot .liveLinks .gitHubLink:hover p, #projects #projectSection .project .projectScreenShot .liveLinks .liveLink:hover p {
+#projects #projectSection .project .projectScreenShot .liveLinks .gitHubLink:hover p,
+#projects #projectSection .project .projectScreenShot .liveLinks .liveLink:hover p {
   width: -moz-fit-content;
   width: fit-content;
   transition: all 0.5s;
@@ -890,7 +906,9 @@ body {
   font-size: 0px;
   overflow: hidden;
 }
-.homeLinks #socialMedia1:hover p, .homeLinks #socialMedia2:hover p, .homeLinks #socialMedia3:hover p {
+.homeLinks #socialMedia1:hover p,
+.homeLinks #socialMedia2:hover p,
+.homeLinks #socialMedia3:hover p {
   transform: scaleY(1);
   color: #0faaf1;
   max-height: -moz-fit-content;
@@ -922,7 +940,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #12CFB1;
+  background-color: #12cfb1;
 }
 
 .goToTop {
@@ -930,6 +948,7 @@ body {
   width: 50px;
   left: 95%;
   top: 85%;
+  transition-duration: 1s;
 }
 .goToTop img {
   width: 90%;
